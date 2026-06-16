@@ -1758,11 +1758,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ds02\\LojaVestuarioAPI\\LojaVestuarioAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ds02\\Documents\\GitHub\\APIMontclair\\LojaVestuarioAPI\\LojaVestuarioAPI.csproj",
       "projectName": "LojaVestuarioAPI",
-      "projectPath": "C:\\Users\\ds02\\LojaVestuarioAPI\\LojaVestuarioAPI.csproj",
+      "projectPath": "C:\\Users\\ds02\\Documents\\GitHub\\APIMontclair\\LojaVestuarioAPI\\LojaVestuarioAPI.csproj",
       "packagesPath": "C:\\Users\\ds02\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ds02\\LojaVestuarioAPI\\obj\\",
+      "outputPath": "C:\\Users\\ds02\\Documents\\GitHub\\APIMontclair\\LojaVestuarioAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ds02\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1831,7 +1831,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
