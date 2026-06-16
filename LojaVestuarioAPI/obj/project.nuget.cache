@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ukU8TZVUYQM=",
+=======
+  "dgSpecHash": "ScITNYTksqw=",
+>>>>>>> f9d525a91809a633351142e0b4db916ea193e927
   "success": true,
   "projectFilePath": "C:\\Users\\ds02\\Documents\\GitHub\\APIMontclair\\LojaVestuarioAPI\\LojaVestuarioAPI.csproj",
   "expectedPackageFiles": [
