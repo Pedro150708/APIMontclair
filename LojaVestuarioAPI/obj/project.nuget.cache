@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zXIYSs6uAt8=",
+  "dgSpecHash": "ScITNYTksqw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ds02\\LojaVestuarioAPI\\LojaVestuarioAPI.csproj",
+  "projectFilePath": "C:\\Users\\ds02\\Documents\\GitHub\\APIMontclair\\LojaVestuarioAPI\\LojaVestuarioAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ds02\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.16\\microsoft.aspnetcore.openapi.9.0.16.nupkg.sha512",
     "C:\\Users\\ds02\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
