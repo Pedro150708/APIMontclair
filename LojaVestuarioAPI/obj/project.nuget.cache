@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "ukU8TZVUYQM=",
-=======
   "dgSpecHash": "ScITNYTksqw=",
->>>>>>> f9d525a91809a633351142e0b4db916ea193e927
   "success": true,
   "projectFilePath": "C:\\Users\\ds02\\Documents\\GitHub\\APIMontclair\\LojaVestuarioAPI\\LojaVestuarioAPI.csproj",
   "expectedPackageFiles": [
@@ -42,5 +38,15 @@
     "C:\\Users\\ds02\\.nuget\\packages\\system.text.encodings.web\\10.0.3\\system.text.encodings.web.10.0.3.nupkg.sha512",
     "C:\\Users\\ds02\\.nuget\\packages\\system.text.json\\10.0.3\\system.text.json.10.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file C:\\Users\\ds02\\Documents\\GitHub\\APIMontclair\\LojaVestuarioAPI\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\ds02\\Documents\\GitHub\\APIMontclair\\LojaVestuarioAPI\\LojaVestuarioAPI.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\ds02\\Documents\\GitHub\\APIMontclair\\LojaVestuarioAPI\\LojaVestuarioAPI.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
