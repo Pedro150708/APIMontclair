@@ -1,0 +1,6 @@
+@LojaVestuarioAPI_HostAddress = http://localhost:5171
+
+GET {{LojaVestuarioAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
