@@ -119,6 +119,7 @@ var app = builder.Build();
 app.UseCors("ReactPolicy");
 app.UseSwagger();
 app.UseSwaggerUI();
+app.UseStaticFiles();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
