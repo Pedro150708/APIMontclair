@@ -17,20 +17,36 @@ public class UsuariosController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Usuario>>> Get()
+    public async Task<IActionResult> Get()
     {
-        return await _context.Usuarios.ToListAsync();
-    }
+        var usuarios = await _context.Usuarios.Select(u => new
+        {
+            u.Id,
+            u.Nome,
+            u.Email,
+            u.Telefone,
+            u.CriadoEm
+        })
+        .ToListAsync();
+
+    return Ok(usuarios);
+}
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<Usuario>> Get(int id)
+    public async Task<IActionResult> Get(int id)
     {
-        var usuario = await _context.Usuarios.FindAsync(id);
-
+        var usuario = await _context.Usuarios.Where(u => u.Id == id).Select(u => new
+        {
+            u.Id,
+            u.Nome,
+            u.Email,
+            u.Telefone,
+            u.CriadoEm
+        })
+        .FirstOrDefaultAsync();
         if (usuario == null)
             return NotFound();
-
-        return usuario;
+            return Ok(usuario);
     }
 
     [HttpPost]
