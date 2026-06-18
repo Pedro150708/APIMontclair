@@ -85,19 +85,36 @@ public class AuthController : ControllerBase
     }
 
     [Authorize]
-    [HttpGet("me")]
-    public IActionResult Me()
+[HttpGet("me")]
+public async Task<IActionResult> Me()
+{
+    var userId =
+        User.FindFirst(
+            ClaimTypes.NameIdentifier)?.Value;
+
+    if (userId == null)
     {
-        var id = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-        var nome = User.FindFirst(ClaimTypes.Name)?.Value;
-        var email = User.FindFirst(ClaimTypes.Email)?.Value;
-        return Ok(new
-        {
-            Id = id,
-            Nome = nome,
-            Email = email
-        });
+        return Unauthorized();
     }
+
+    var usuario =
+        await _context.Usuarios.FindAsync(
+            int.Parse(userId));
+
+    if (usuario == null)
+    {
+        return NotFound();
+    }
+
+    return Ok(new
+    {
+        usuario.Id,
+        usuario.Nome,
+        usuario.Email,
+        usuario.Telefone,
+        usuario.CriadoEm
+    });
+}
 
     [Authorize]
     [HttpPut("change-password")]
@@ -176,6 +193,16 @@ public async Task<IActionResult> UpdateProfile(
     });
 }
 
+[Authorize]
+[HttpPost("logout")]
+public IActionResult Logout()
+{
+    return Ok(new
+    {
+        mensagem = "Logout realizado com sucesso."
+    });
+}
+
     [HttpPost("forgot-password")]
 public async Task<IActionResult> ForgotPassword(
     ForgotPasswordDTO dto)
@@ -195,6 +222,34 @@ public async Task<IActionResult> ForgotPassword(
     {
         mensagem =
             "Solicitação recebida."
+    });
+}
+
+[HttpPost("reset-password")]
+public async Task<IActionResult> ResetPassword(
+    ResetPasswordDTO dto)
+{
+    var usuario =
+        await _context.Usuarios
+            .FirstOrDefaultAsync(
+                u => u.Email == dto.Email);
+
+    if (usuario == null)
+    {
+        return NotFound(
+            "Usuário não encontrado.");
+    }
+
+    usuario.Senha =
+        BCrypt.Net.BCrypt.HashPassword(
+            dto.NovaSenha);
+
+    await _context.SaveChangesAsync();
+
+    return Ok(new
+    {
+        mensagem =
+            "Senha redefinida com sucesso."
     });
 }
 }
