@@ -142,4 +142,59 @@ public class AuthController : ControllerBase
             mensagem = "Senha alterada com sucesso."
         });
     }
+
+    [Authorize]
+[HttpPut("update-profile")]
+public async Task<IActionResult> UpdateProfile(
+    UpdateProfileDTO dto)
+{
+    var userId =
+        User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+    if (userId == null)
+    {
+        return Unauthorized();
+    }
+
+    var usuario =
+        await _context.Usuarios.FindAsync(
+            int.Parse(userId));
+
+    if (usuario == null)
+    {
+        return NotFound();
+    }
+
+    usuario.Nome = dto.Nome;
+    usuario.Telefone = dto.Telefone;
+
+    await _context.SaveChangesAsync();
+
+    return Ok(new
+    {
+        mensagem = "Perfil atualizado com sucesso."
+    });
+}
+
+    [HttpPost("forgot-password")]
+public async Task<IActionResult> ForgotPassword(
+    ForgotPasswordDTO dto)
+{
+    var usuario =
+        await _context.Usuarios
+            .FirstOrDefaultAsync(
+                u => u.Email == dto.Email);
+
+    if(usuario == null)
+    {
+        return NotFound(
+            "Usuário não encontrado.");
+    }
+
+    return Ok(new
+    {
+        mensagem =
+            "Solicitação recebida."
+    });
+}
 }
