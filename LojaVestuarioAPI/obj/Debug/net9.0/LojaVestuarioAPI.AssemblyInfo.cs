@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LojaVestuarioAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef651b632749d6d5fc59e6d428fbc6de808bdebe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cadb25581a37f285e547adbdfe75afc96fe7f3ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("LojaVestuarioAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LojaVestuarioAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
