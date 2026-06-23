@@ -124,3 +124,7 @@ C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\obj\Debug\net9.0\re
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\obj\Debug\net9.0\LojaVestuarioAPI.pdb
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\obj\Debug\net9.0\LojaVestuarioAPI.genruntimeconfig.cache
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\obj\Debug\net9.0\ref\LojaVestuarioAPI.dll
+C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
