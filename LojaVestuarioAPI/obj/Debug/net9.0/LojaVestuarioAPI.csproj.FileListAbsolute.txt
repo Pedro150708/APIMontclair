@@ -64,6 +64,8 @@ C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Lo
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\LojaVestuarioAPI.runtimeconfig.json
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\LojaVestuarioAPI.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\LojaVestuarioAPI.pdb
+C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\BCrypt-Net-Next.dll
+C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -76,6 +78,12 @@ C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Mi
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.OpenApi.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\MySqlConnector.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\OpenAI.dll
@@ -85,6 +93,7 @@ C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Sw
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\System.ClientModel.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\System.IO.Pipelines.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\System.Memory.Data.dll
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\System.Net.ServerSentEvents.dll
@@ -115,12 +124,3 @@ C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\obj\Debug\net9.0\re
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\obj\Debug\net9.0\LojaVestuarioAPI.pdb
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\obj\Debug\net9.0\LojaVestuarioAPI.genruntimeconfig.cache
 C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\obj\Debug\net9.0\ref\LojaVestuarioAPI.dll
-C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\BCrypt-Net-Next.dll
-C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\ds02\Documents\GitHub\APIMontclair\LojaVestuarioAPI\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
