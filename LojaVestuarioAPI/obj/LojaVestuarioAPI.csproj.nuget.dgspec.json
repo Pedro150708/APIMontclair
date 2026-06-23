@@ -56,10 +56,6 @@
               "target": "Package",
               "version": "[9.0.16, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.7, )"
-            },
             "OpenAI": {
               "target": "Package",
               "version": "[2.11.0, )"
